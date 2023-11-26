@@ -5,7 +5,7 @@ const Searchbar = ({ onChange }) => {
     onChange(e.target.value);
   };
   return (
-    <Box w="500px" m="auto" mt="50px">
+    <Box maxW="500px" m="auto" mt="50px">
       <Input
       bg="blue.500"
         type="text"

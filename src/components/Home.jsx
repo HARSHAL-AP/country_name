@@ -46,9 +46,9 @@ const Home = () => {
     }
     {!isloading&& !iserr&& <Grid
       w={{
-        base: "95%",
-        md: "95%",
-        lg: "60%",
+        base: "80%",
+        md: "85%",
+        lg: "70%",
       }}
      
         templateColumns={{
